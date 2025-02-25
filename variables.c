@@ -1,5 +1,11 @@
 //declare a variable
-int myNum;
+#include <stdio.h>
 
-// assign a value to the variable
-myNum = 15;
+int main() {
+    int myNum = 15;
+    float myFloatNum = 5.99;
+    char myLetter = 'D';
+
+    printf("My number is %d and my letter is %c", myNum, myLetter);
+
+}
